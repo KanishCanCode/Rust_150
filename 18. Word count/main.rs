@@ -1,4 +1,3 @@
-use std::io::{self,Write};
 
 fn count_words(sentence:&str)->usize{
     sentence.split_whitespace().filter(|word| !word.is_empty()).count()
